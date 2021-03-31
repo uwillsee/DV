@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/paint.jpg");
+  background-size: cover;
+  background-position: center top;
+  /*position: fixed;*/
+  height: 100%;
+  font-family: "MoMA Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+top_left{
+	grid-area: topleft;
+	text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h5{
+font-family: Arial;
+font-size: 0.9em;
+font-weight: normal;
+text-align: justify;
+margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+h3{
+display:inline;
+margin-inline-start: 20px;
+}
+
+img {
+  margin-left: 20px;
+}
+
+.modebar{
+  display: none !important;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #fff;
+  margin: 15px;
+  box-shadow: 5px 5px 5px rgba(207,221,218, 1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.small {
+  margin-top: 0;
+  width: 33%
+}
+
+.first {
+ margin-top: 0;
+}
+
+.last {
+  margin-right: 3rem;
+  margin-right: 0;
+}
+
+.footer{
+	color:black;
+	font-size: 17px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
