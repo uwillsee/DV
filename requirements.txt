@@ -9,5 +9,3 @@ pandas
 numpy
 Input
 Output
-search
-graphs
