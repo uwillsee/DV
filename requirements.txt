@@ -7,3 +7,7 @@ dash-core-components
 dash-html-components
 pandas
 numpy
+Input
+Output
+search
+graphs
