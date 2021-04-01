@@ -14,5 +14,5 @@ Project for Data Visualization course in the [Master Degree Program in Data Scie
 
 
 In this dashboard, you can go on tour with the MoMA museum by getting insights into which artworks it acquired over the years and by which artists.
-Enjoy at [here](https://moma-on-tour.herokuapp.com/)
+Enjoy at https://moma-on-tour.herokuapp.com/
 
