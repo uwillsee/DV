@@ -2,7 +2,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-
+import gunicorn
 
 import numpy as np
 import pandas as pd
@@ -10,6 +10,9 @@ from re import search
 
 import plotly.graph_objects as go
 import plotly.express as px
+
+import warnings
+warnings.filterwarnings('ignore')
 
 data = pd.read_csv('preprocessing/data.csv')
 
