@@ -3,7 +3,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
-import gunicorn
+#import gunicorn
 
 import numpy as np
 import pandas as pd
@@ -179,8 +179,7 @@ def line_chart_nationalities():
                   hover_data={'DateAcquired': False, 'variable': False, 'value': True},
                   color_discrete_sequence=['#9acfbf','#3eceaf'],
                   labels={'DateAcquired': 'Year Artworks were Acquired', 'variable': '', 'value': 'Number of Nationalities'},
-                  height=350,
-                  width=690
+                  height=350
                   )
 
     fig.update_layout(
@@ -224,7 +223,9 @@ def map_with_animation():
                         hover_data={'Country':False,'Count':True,'Countlog':False,'DateAcquired':False},
                         labels={'DateAcquired': 'Year', 'Countlog': 'Acquired<br>Artworks (log)','Count': 'Acquired Artworks'},
                         #projection="natural earth",
-                        height=600, width=710)
+                        height=590
+                        # , width=710
+                        )
     fig.update_layout(
         title=dict(text='Artworks\' Nationality Evolution',
                                            x=0.1,y=0.95,
