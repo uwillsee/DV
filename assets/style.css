@@ -6,7 +6,6 @@ body {
   background-position: center top;
   /*position: fixed;*/
   height: 100%;
-  display: flex;
   font-family: "MoMA Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
