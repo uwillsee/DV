@@ -15,7 +15,7 @@ import plotly.express as px
 import warnings
 warnings.filterwarnings('ignore')
 
-data = pd.read_csv('preprocessing/data.csv')
+data = pd.read_csv('data.csv')
 
 
 def classes_fromto(year1=1929, year2=2020):
@@ -514,6 +514,7 @@ app.layout = dcc.Loading(
     ]),
     type = 'cube',  color='white')
 
+server = app.server
 
 @app.callback(
     Output('unique-artists', 'children'),
