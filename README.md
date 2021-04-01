@@ -8,9 +8,9 @@ Project for Data Visualization course in the [Master Degree Program in Data Scie
 - Svitlana Vasylyeva (m20200617@novaims.unl.pt)
 
 ### Professors:
-- [Mijail Naranjo Zolotov](mijail.naranjo@novaims.unl.pt)
-- [Nuno Alpalhão](nalpalhao@novaims.unl.pt)
-- [Mafalda Zúquete](mzuquete@novaims.unl.pt)
+- Mijail Naranjo Zolotov (mijail.naranjo@novaims.unl.pt)
+- Nuno Alpalhão (nalpalhao@novaims.unl.pt)
+- Mafalda Zúquete (mzuquete@novaims.unl.pt)
 
 
 In this dashboard, you can go on tour with the MoMA museum by getting insights into which artworks it acquired over the years and by which artists.
